@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.App-header {
+  background: #6e3f8e url("./assets/f91c2cd2f34196abea698adeb1b6ba85.jpg") no-repeat;
+  background-position: right 20px bottom 15px;
+  min-height: 40px;
+  display: flex;
+  flex-direction: column;
+  color:black;
+  
+}
+
+.App-header h1 {
+  padding-top: 0;
+  padding-left: 0;
+  margin: 0;
+  border-style: solid;
+  font-size: 130px;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+
+.navigation ul {
+  list-style-type: none;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: navajowhite;
+  
+  
+}
+
+.navigation li {
+  float: left;
+}
+
+.navigation li a {
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navigation li a:hover {
+  background-color: gray;
+}
+
+/* OverviewPage styling */
+
+.OverviewPage {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  padding: 15px;
+}
+
+.OverviewPage h1 {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  text-align: left;
+  padding-left: 0;
+  margin: 0;
+}
+
+.ChartComponent {
+  margin-bottom: 20px;
+  border: 1px solid rgb(209, 14, 79);
+  border-radius: 5px;
+  margin: 50px;
+  justify-content: center;
+}
+
+.InputSelect {
+  padding: 15px;
+  background-color:beige;
+  border-radius: 0px 0px 5px 0px;
+  width: 35%;
+}
+
+.InputSelectLabel {
+  margin-right: 5px;
+}
+
+/* SelectStudents styling */
+
+.SelectStudents {
+  font-family: 'Lato', sans-serif;
+  padding: 15px;
+  background-color: yellow;
+  border: 10px solid rgb(221, 221, 221);
+  border-radius: 10px;
+  margin: 50px;
+}
+
+.SelectStudents p {
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+/* STUDENTS - StudentsPage styling */
+
+.StudentsPage {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  padding: 10px;
+}
+
+.StudentsPage h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: left;
+  padding-left: 50px;
+  margin-top: 0;
+}
+
+.ListBlock {
+  width: 400px;
+}
+
+.StudentsPageList ul {
+  list-style: inline-block;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.StudentsPageList li {
+  display: inline-block;
+  background-color:royalblue;
+  width: 40%;
+  padding: 10px;
+  margin: 2px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.StudentsPageList li a {
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+
+/* STUDENT - StudentPage styling */
+
+.StudentPage {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  padding: 15px;
+}
+
+.StudentPage h1 {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  text-align: left;
+  padding-left: 50px;
+  margin-top: 0;
+}
+
+.GraphComponent {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 50px;
+  justify-content: center;
+}
+
+/* Componenten Info styling */
+
+.ComponentInfo {
+  padding: 15px;
+  background-color: #E6EDF3;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.ComponentInfo p {
+  margin: 0;
+}
+
+.ComponentInfo .fun::before {
+  content: "";
+  display: inline-block;
+  background-color: darkgreen;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+.ComponentInfo .difficult::before {
+  content: "";
+  display: inline-block;
+  background-color:darkblue;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+.ComponentInfo .averageAll::before {
+  content: "";
+  display: inline-block;
+  background-color:blue;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px; 
+}
+
+.ComponentInfo .averageOneStudent::before {
+  content: "";
+  display: inline-block;
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
